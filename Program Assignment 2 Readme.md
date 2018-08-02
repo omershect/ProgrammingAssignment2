@@ -1,4 +1,4 @@
-## Program Asiignment 2
+## Program Assignment 2
 #### Lexical Scoping
 
 The Assignment has two functions, which return an inverse of a Matrix and cache it to the memory.
