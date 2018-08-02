@@ -14,15 +14,20 @@ The return is the inverse of the matrix, but at the second time we see that the 
 
 
 source("cachematrix.R")
+
 > x<-cbind(c(0,1),c(1,0))
+
 > class(x)
 [1] "matrix"
+
 > y<-makeCacheMatrix(x)
 > cacheSolve(y)
+
      [,1] [,2]
 [1,]    0    1
 [2,]    1    0
 > cacheSolve(y)
+
 getting cached data
      [,1] [,2]
 [1,]    0    1
